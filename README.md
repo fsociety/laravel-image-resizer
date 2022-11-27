@@ -16,14 +16,15 @@ set your composer.json
         }
     ],
     "require": {
-        "quinlan/image-resizer": "dev-master"
+        "quinlan/image-resizer": "dev-main"
     }
 }
 ```
 
-and run this
+and run these lines
 ```bash
   php artisan vendor:publish --tag=image_resizer_config
+  php artisan storage:link
 ```
 
 ## Integration
@@ -117,4 +118,3 @@ To run tests, run the following command
 ```bash
   php artisan test vendor/quinlan/image-resizer
 ```
-
