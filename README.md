@@ -76,7 +76,7 @@ you can change your settings before upload
 \
 ImageResizer::upload returns and object, so in that case $image variable is an object
 
-```json
+```
 {
   // $image
   +"directory": "638334a5c5b68"
