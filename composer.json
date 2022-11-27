@@ -1,0 +1,37 @@
+{
+    "name": "quinlan/image-resizer",
+    "description": "this creates different versions of an image, so you can show your images based on screen",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Quinlan\\ImageResizer\\": "src/"
+        },
+        "files": [
+            "src/Helpers/Helper.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mustafa Göktaş",
+            "email": "mustafa.goktas07@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quinlan\\ImageResizer\\ImageResizerServiceProvider"
+            ],
+            "aliases": {
+                "ImageResizer": "Quinlan\\ImageResizer\\Facades\\ImageResizer"
+            }
+        }
+    }
+}
