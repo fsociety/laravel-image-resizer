@@ -27,6 +27,9 @@ and run these lines
   php artisan storage:link
 ```
 
+Finally, don't forget to change your ***APP_URL*** in your ***.env*** file. \
+if you are running artisan local server set it to ***APP_URL=http://127.0.0.1:8000***. or whatever your localhost is
+
 ## Integration
 
 before using, make your own settings in **config/imageResizer.php**
