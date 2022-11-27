@@ -35,5 +35,5 @@ return [
         ]
     ],
 
-    'disk' => 'local'
+    'disk' => 'public'
 ];
